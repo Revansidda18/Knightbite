@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    background: url(./frenchise-bg.png) no-repeat center/cover;
+    height: 100vh;
+}
+nav{
+    position: fixed top;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(51, 18, 18, 0.204);
+    padding: 20px 40px;
+}
+nav .logo{
+    /* background-color: rgb(203, 175, 175); */
+    width: 20%;
+}
+nav img{
+   width: 100% ;
+   height: 100%;
+   cursor: pointer;
+}
+.nav-link {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+.vv video{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0px;
+        bottom: 0px;
+        object-fit: cover;
+        z-index: -1;
+}
+
+a{
+     text-decoration: none;
+     color: white; 
+}
+.front{
+    display: flex;
+    font-size: 2rem;
+    margin-top: 10rem;
+    justify-content: center;
+}
+h4{
+    font-family: cursive;
+    margin-top: 5rem;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 2rem;
+}
+h5{
+    font-family: cursive;
+    color: white;
+    font-size:30px;
+    margin-bottom: 2rem;
+}
+.front1{
+    display: flex;
+    font-size: 1rem;
+    justify-content: center;
+}
+#apply{
+    background-color:rgba(255, 0, 0, 0.653);
+    padding: .5rem 2rem;
+    border-radius: 20px;
+}
+#vid{
+    background-color: transparent;
+    border: transparent;
+    font-style: italic;
+    font-family: cursive;
+    font: optional;
+    font-size: 30px;
+    padding: 2rem;
+    color: white;
+}
+h2{
+    font-family: cursive;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    margin: 1rem;
+}
+.main{
+    height: 150vh;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 40px;
+    text-align: center;
+}
+
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.h{
+    margin-bottom: 5rem;
+}
+
+.line1{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    background: rgb(225, 0, 255);
+    height: 0.1rem;
+    margin: 50px;
+    margin-left: 80px;
+}
+.line2{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    background: rgb(225, 0, 255);
+    height: 0.1rem;
+    margin: 50px;
+    margin-left: 80px;
+}
+.grid{
+    height: 100vh;
+    text-align: center;
+    margin-top: 30px;;
+}
+.franchaise{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    gap: 5rem;
+    padding: 0rem 2rem;
+}
+.app{
+    height: 70vh;
+}
+.app img{
+    height: 400px;
+    width: 600px;
+}
+.apply h1{
+    font-family: cursive;
+    font-size: 30px;
+    margin-bottom: 1rem;
+}
+.front2{
+    display: flex;
+    font-size: 1rem;
+    margin-top: 2rem;
+    justify-content: center;
+}
+.min{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.mm{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+.abc{
+    text-align: center;
+    justify-content: space-evenly;
+    height:20%;
+}
+img{
+    height: 50px;
+    width: 50px;
+}
+footer{
+    text-align: center;
+    color: white;
+    padding: 1rem;
+    background: linear-gradient(to right, rgb(228, 72, 98));
+}
+@media (max-width:570px){
+    header{
+        height: 100%;
+        background: url(./frenchise-bg.png) no-repeat center/cover;
+    }
+   nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    nav .logo{
+        width: 50%;  
+    }
+    h4{
+    margin-top: 1rem;
+    color: white;
+}
+    *{
+        font-size: 20px;
+    }
+    h5{
+        font-size: 28px;
+    }
+    .franchaise{
+        display: flex;
+        flex-direction: column;
+    }
+    .abc h1{
+        margin-bottom: 2rem;
+    }
+    .mm{
+        margin-bottom: 2rem;
+    }
+    #x{
+        height: 60%;
+        width: 85%;
+    }
+    .abc{
+        height: 50%;
+        row-gap: 2rem;
+    }
+    .min{
+        display: flex;
+        flex-direction: column;
+    }
+} 

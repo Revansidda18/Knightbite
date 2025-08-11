@@ -1,0 +1,88 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    background: url(./about1.webp) no-repeat center/cover;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(51, 18, 18, 0.204);
+    padding: 20px 40px;
+}
+nav .logo{
+    width: 20%;
+}
+nav img{
+   width: 100% ;
+   cursor: pointer;
+}
+.nav-link {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    
+}
+a{
+     text-decoration: none;
+     color: white; 
+}
+.container1 p{
+    width: 45%;
+    font-size: 3rem;
+    color: whitesmoke;
+    margin: 3.6rem;
+    font-family: sans-serif;
+}
+.container2{
+    height: 250vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    row-gap: 3rem;
+    margin: 1rem 5rem;
+    column-gap: 6rem;
+    font-size: 1.5rem;
+}
+.img{
+    display: flex;
+    justify-content: space-around;
+}
+.img1{
+    height: 100px;
+}
+.img2{
+    height: 300px;
+}
+footer{
+    text-align: center;
+    color: white;
+    padding: 1rem;
+    background: linear-gradient(to right, rgb(228, 72, 98));
+}
+@media (max-width:570px){
+    .container1 p{
+        font-size: 2rem;
+        width: 60%;
+        margin-top: 5.5rem;
+    }
+    .container2{
+        display: grid;
+        grid-template-columns: auto;
+        font-size: 1rem
+    }
+    .img1{
+        height: 50px;
+    }
+    .img2{
+        height: 170px;
+    }
+     .container3 p{
+        text-align: center;
+    } 
+}
